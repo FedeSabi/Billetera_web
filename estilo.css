@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     text-decoration: none;
-    font-family: 'Diplomata SC', cursive;
+    font-family: 'Diplomata SC', cursive; /* cambiar font-family*/
     font-family: 'Roboto Slab', serif;
 
 }
@@ -16,7 +16,7 @@ header{
     padding: 30px;
     margin: 20px;
     font-size: 90px;
-    color: rgb(13, 119, 218);
+    color: rgb(198, 188, 238);
 }
 h2{
     font-size: 2rem;
@@ -35,7 +35,7 @@ button {/* modificar el color de relleno de retirar rgb209, 207, 224 */
      margin: 25px; 
     margin-bottom: 15px 15px 15px;
     margin-top: 60px;
-    border-radius: 5px;
+    border-radius: 10px;
     width: 200px;
     padding: 0.5rem;
     font-size: 2rem;
