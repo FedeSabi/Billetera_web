@@ -2,4 +2,76 @@
     padding: 0;
     margin: 0;
     text-decoration: none;
+    font-family: 'Diplomata SC', cursive;
+    font-family: 'Roboto Slab', serif;
+
 }
+header{
+    background-color: rgb(229, 228, 247);
+}
+.contenedor_logo{ /* modificaciones alcancia*/
+    display: flex;
+    justify-content:flex-start;
+    align-items: flex-start;
+    padding: 30px;
+    margin: 20px;
+    font-size: 90px;
+    color: rgb(13, 119, 218);
+}
+h2{
+    font-size: 2rem;
+    color: rgb(133, 138, 155);
+    margin: 30px;
+    padding: 50px;
+}
+.contenedor_bts{
+   
+    margin:20px;
+    padding-left: 30px;
+}
+button {/* modificar el color de relleno de retirar rgb209, 207, 224 */
+    background-color: rgb(127, 89, 217);
+    color: white;
+     margin: 25px; 
+    margin-bottom: 15px 15px 15px;
+    margin-top: 60px;
+    border-radius: 5px;
+    width: 200px;
+    padding: 0.5rem;
+    font-size: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*button {/* modificar el color de relleno de retirar rgb209, 207, 224 *//*
+    background-color: rgb(127, 89, 217);
+    color: white;
+     margin: 25px; 
+    margin-bottom: 5px 5px 5px;
+    margin-top: 40px;
+    border-radius: 5px;
+    width: 100px;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+*/
+
+
