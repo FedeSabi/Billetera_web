@@ -2,8 +2,7 @@
     padding: 0;
     margin: 0;
     text-decoration: none;
-    font-family: 'Diplomata SC', cursive; /* cambiar font-family*/
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Nunito', sans-serif;
 
 }
 header{
@@ -40,7 +39,9 @@ button {/* modificar el color de relleno de retirar rgb209, 207, 224 */
     padding: 0.5rem;
     font-size: 2rem;
 }
-
+#retirar{
+    color: rgb(198, 188, 238);
+}
 
 
 
