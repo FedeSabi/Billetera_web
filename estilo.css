@@ -42,8 +42,15 @@ button {/* modificar el color de relleno de retirar rgb209, 207, 224 */
 #retirar{
     color: rgb(198, 188, 238);
 }
+label {      /* importe balance*/
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
 
-
+input,
+label {
+    margin: 0.4rem 0;
+}
 
 
 
