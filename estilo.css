@@ -7,11 +7,9 @@
 }
 header{
     background-color: rgb(229, 228, 247);
+
 }
 .contenedor_logo{ /* modificaciones alcancia*/
-    display: flex;
-    justify-content:flex-start;
-    align-items: flex-start;
     padding: 30px;
     margin: 20px;
     font-size: 90px;
@@ -23,37 +21,40 @@ h2{
     margin: 30px;
     padding: 50px;
 }
+.contenedor_calculadora{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
 .contenedor_bts{
-   
+   display: flex;
+   justify-content:center;
     margin:20px;
     padding-left: 30px;
 }
 button {/* modificar el color de relleno de retirar rgb209, 207, 224 */
     background-color: rgb(127, 89, 217);
     color: white;
-     margin: 25px; 
+    margin: 25px; 
     margin-bottom: 15px 15px 15px;
     margin-top: 60px;
     border-radius: 10px;
     width: 200px;
     padding: 0.5rem;
     font-size: 2rem;
+    gap: 20px;
 }
 #retirar{
     color: rgb(198, 188, 238);
 }
-label {      /* importe balance*/
-    display: block;
-    font: 1rem 'Fira Sans', sans-serif;
+.contenedor_gastos{
+    
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
 }
-
-input,
-label {
-    margin: 0.4rem 0;
-}
-
-
-
 
 
 
