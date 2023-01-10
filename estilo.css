@@ -26,7 +26,7 @@ h2{
     padding: 50px;
 }
 .contenedor_calculadora{
-    width: 100%;
+    width:95%;
     height: 200px;
     display: flex;
     justify-content:space-evenly;
@@ -59,7 +59,7 @@ button {/* modificar el color de relleno de retirar rgb209, 207, 224 */
   
 }
 .contenedor_gastos{ 
-    width: 100%;
+    width: 70%;
     height: 200px;
     display: flex;
     justify-content:space-evenly;
@@ -76,7 +76,6 @@ input{
     width: 200px;
     padding: 1.5rem;
     font-size: 2rem;
-
 }
 
 
@@ -88,21 +87,5 @@ input{
 
 
 
-
-
-
-
-/*button {/* modificar el color de relleno de retirar rgb209, 207, 224 *//*
-    background-color: rgb(127, 89, 217);
-    color: white;
-     margin: 25px; 
-    margin-bottom: 5px 5px 5px;
-    margin-top: 40px;
-    border-radius: 5px;
-    width: 100px;
-    padding: 0.5rem;
-    font-size: 1rem;
-}
-*/
 
 
