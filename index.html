@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -22,41 +21,48 @@
                 </label>
                </div>  
                <!--ingreso montos totales-->
-            </header>
-            <section class="balance_y_movimientos">
-                <section class="balance">
-                <div class="balance__costado">
-                    <p class="balance__monto" id="balance_ingreso">$ 0.00</p>
-                    <p class="balance__leyenda">Ingreso Total</p>
-                </div>
-                <div>            
-                    <p class="balance__monto" id="balance__cuenta">$ 0.00</p>
-                    <p class="balance__leyenda">Balance Total</p>
-                </div>
-                <div class="balance__costado">  
-                    <p class="balance__monto" id="balance_gastos">$ 0.00</p>
-                    <p class="balance__leyenda">Gatos Totales</p>
-                </div>
-                </section>
-        
-                <form action="" class="movimientos" id="movimientos">
-                    <input class="movimientos_input" type="number" name="dinero__disponible" id="dinero__disponible" placeholder="Dinero Disponible">
-                    <div class="movimientos__egreso" id="movimientos__egreso">
-                        <input class="movimientos_input" type="text" name="nombre__gasto" id="nombre__gasto" placeholder="Nombre del Gasto">
-                        <input class="movimientos_input" type="number" name="monto__gasto" id="monto__gasto" placeholder="Monto">
-                        <button class="enviar_balance">
-                            <i class="bi bi-plus-circle-fill simbolo__mas" ></i>    
-                        </button>
-                    </div>
-                </form>
-            </section>
-        
-            <section class="gastos" >
-                <ul class="lista_gastos" id="lista_gastos">
-                    <p class="gastos_titulo">Gastos</p>
-                </ul>
-            </section>
-            <script src="./app.js"></script>
+        </header>
+            <div class="contenedor_dinero_ingresado">
+                <p class="Ingresado">Dinero Ingresado</p>
+                <h1 class="dineroIngresado" id="dineroIngresado">$0,00</h1>
+                 <p class="disponible">Monto Disponible</p>  
+                <h1 class="montoDisponible" id="montoDisponible">$0,00</h1>
+                <p class="montos">Monto de Gastos</p>  
+                <h1 class="montoGastos" id="montoGastos">$0,00</h1>
+            </div>
+            <!--botones sin funciones (estaban en el diseño original)-->
+            <div class="contenedor_bts">
+                <a href="#"><button id="depositar"><i class="bi bi-wallet-fill"></i><span>   Depositar</span></button></a>
+                <a href="#"><button id="retirar"><i class="bi bi-arrow-down-right-circle"></i><span>    Retirar</span> </button></a>
+            </div>
+            <!--ingreso de gastos y descripcion de los mismos-->
+        <section>
+            <form action="" class="contenedor_gastos" id="contenedor_gastos">
+                <input class="movimientos_input" type="number" name="dinero_disponible" id="dinero_disponible" placeholder="Dinero disponible">
+                <div class="movimientos_salida" id="movimientos_salida">
+                <label for="idDescripcion"><h2>Descripcion</h2></label>
+                <input id="idDescripcion" type="text" placeholder="Descripcion Gastos" />
+                <label for="idImporte"><h2>Importe</h2></label>
+                <input id="idImporte" type="number" placeholder="Ingrese Importe"/>
+                <button class="enviar_balance">
+                    <i class="bi bi-plus-circle-fill simbolo__mas" ></i>    
+                </button>
+            </div>
+            </form>
+        <div>
+        <abbr title='Agregar Gastos'><i id="agregarGastos" class="bi bi-plus-circle iconoGasto"></i></abbr>
+        </div>
+        </section>
+        <div class="Consumos">
+            <div class="descripGastos">
+                <abbr title='Agregar Consumos'><i id="agregarConsumo" class="bi bi-plus-circle iconoGasto"></i></abbr>
+            </div>
+            <div>
+            <ul class="lista_gastos" id="lista_gastos">
+            <p class="gastos_titulo">Gastos</p>
+            </ul>
+            </div>
+        </div>
+        <script src="./app.js"></script>     
 </body>
 </html>
-
