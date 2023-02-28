@@ -18,7 +18,7 @@ header{
     margin: 30px 20px;
     font-size: 120px;
     color: rgb(198, 188, 238);   
-}
+}/* seccion modo noche*/
 .dark-mode-container{ 
     display: flex;
     flex-direction: row;
@@ -29,13 +29,9 @@ header{
     font-size: 2em;
     color:rgb(127, 89, 217);
     font-weight: 600;
-} 
-h1{
-    font-size: 2.5rem;
-    color: rgb(133, 138, 155);
-    margin: 10 0px;
-    padding: 20px;
-}
+} /*fin de seccion modo noche*/
+
+/* seccion ingreso de montos totales*/
 .contenedor_dinero_ingresado{
     width:100%;
     height: 200px;
@@ -44,6 +40,16 @@ h1{
     align-items:center;
     background-color: rgb(229, 228, 247);
 }
+.contenedor_dinero_ingresado h1{
+    font-size: 2.5rem;
+    color: rgb(133, 138, 155);
+    margin: 10 0px;
+    padding: 20px;
+}
+.contenedor_dinero_ingresado p{
+    font-size: 1.6rem;
+}
+/*botones sin funciones (estaban en el diseño original)*/
 .contenedor_bts{
     height: 200px;
     width: 100%;

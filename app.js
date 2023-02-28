@@ -1,11 +1,11 @@
-let movimientos = document.getElementById(`contenedorGastos`)
+let movimientos = document.getElementById(`contenedor_dinero_ingresado`)
 let gasto_total=0
 let dinero_ingresado=0
 let x=0
 let lista=document.getElementById(`montoGastos`)
 const cargar_dinero = (event) => {
     event.preventDefault()
-    if (event.target.dinero__disponible.value != 0 )
+    if (event.target.dinero__disponible.value != 0)
     {
     dinero_ingresado = Number(event.target.dinero__disponible.value)
     let ingreso = document.getElementById(`balance_ingreso`)
