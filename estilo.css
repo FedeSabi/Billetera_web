@@ -25,6 +25,18 @@ header{
     justify-content: right;
     width: 100px;
 }
+.dark-mode-container button{
+    font-size: 1em;
+    color:rgb(127, 89, 217);
+}
+.dark-mode-button{
+    top: 20px;
+    left: 20px;
+    padding: 20px;  
+}
+html.dark-mode{
+    filter: invert(100%);
+}
 .bts-oscuro{
     font-size: 2em;
     color:rgb(127, 89, 217);
@@ -72,24 +84,29 @@ button {/* modificar el color de relleno de retirar rgb209, 207, 224 */
     color: rgb(198, 188, 238);
     margin-left: 50px;
 }
-.contenedor_gastos{ 
-    width: 70%;
-    height: 200px;
+.contenedorAgregarGastos{
     display: flex;
-    justify-content:space-evenly;
-    align-items: center;
 }
-.dark-mode-container button{
-    font-size: 1em;
-    color:rgb(127, 89, 217);
+
+.agregarGastos{
+height: 200px;
+width: 100%;
+color: black;
+font-size: 1.5rem;
+background-color: blueviolet;
 }
-.dark-mode-button{
-    top: 20px;
-    left: 20px;
-    padding: 20px;
-    
+.Consumos{
+    background-color:brown;
+    height: 200px;
+    width: 100%;
 }
-html.dark-mode{
-    filter: invert(100%);
+.listado{
+    background-color: coral;
+    height: 200px;
+    width: 100%;
+}
+.listado p{
+    font-size: 1.5rem;
+    color: black;
 }
 

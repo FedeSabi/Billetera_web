@@ -36,20 +36,8 @@
                 <a href="#"><button id="retirar"><i class="bi bi-arrow-down-right-circle"></i><span>    Retirar</span> </button></a>
             </div>
             <!--ingreso de gastos y descripcion de los mismos-->
-        <section>
-            <form action="" class="contenedor_gastos" id="contenedor_gastos">
-                <input class="movimientos_input" type="number" name="dinero_disponible" id="dinero_disponible" placeholder="Dinero disponible">
-                <div class="movimientos_salida" id="movimientos_salida">
-                <label for="idDescripcion"><h2>Descripcion</h2></label>
-                <input id="idDescripcion" type="text" placeholder="Descripcion Gastos" />
-                <label for="idImporte"><h2>Importe</h2></label>
-                <input id="idImporte" type="number" placeholder="Ingrese Importe"/>
-                <button class="enviar_balance">
-                    <i class="bi bi-plus-circle-fill simbolo__mas" ></i>    
-                </button>
-            </div>
-            </form>
-        <div>
+        <section class="contenedorAgregarGastos">   
+        <div class="agregarGastos">
         <abbr title='Agregar Gastos'><i id="agregarGastos" class="bi bi-plus-circle iconoGasto"></i></abbr>
         </div>
         </section>
@@ -58,7 +46,7 @@
             <div class="descripGastos">
                 <abbr title='Agregar Consumos'><i id="agregarConsumo" class="bi bi-plus-circle iconoGasto"></i></abbr>
             </div>
-            <div>
+            <div class="listado">
             <ul class="lista_gastos" id="lista_gastos">
             <p class="gastos_titulo">Gastos</p>
             </ul>
